@@ -53,7 +53,15 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
 			]
 		}
 	],
@@ -91,7 +99,15 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
 			]
 		}
 	],
@@ -106,7 +122,55 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Bai 001/Bai_001.cpp",
+			"path" : "Bai001/Bai_001.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Bai002/Bai_002.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Bai012/Bai_012.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Bai013/Bai_013.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Bai022/Bai_022.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Bai023/Bai_023.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Bai027/Bai_027.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Bai028/Bai_028.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Bai029/Bai_029.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
