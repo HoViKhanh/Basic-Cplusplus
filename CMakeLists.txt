@@ -13,4 +13,12 @@ add_executable(Basic_C__ main.cpp
         Bai027/Bai_027.cpp
         Bai028/Bai_028.cpp
         Bai029/Bai_029.cpp
+        Bai035/Bai_035.cpp
+        Bai036/Bai_036.cpp
+        Bai049/Bai_049.cpp
+        Bai050/Bai_050.cpp
+        Bai058/Bai_058.cpp
+        Bai059/Bai_059.cpp
+        Bai064/Bai_064.cpp
+        Bai068/Bai_068.cpp
 )

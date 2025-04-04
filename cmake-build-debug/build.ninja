@@ -109,6 +109,54 @@ build CMakeFiles/Basic_C__.dir/Bai029/Bai_029.cpp.obj: CXX_COMPILER__Basic_C___u
   OBJECT_DIR = CMakeFiles\Basic_C__.dir
   OBJECT_FILE_DIR = CMakeFiles\Basic_C__.dir\Bai029
 
+build CMakeFiles/Basic_C__.dir/Bai035/Bai_035.cpp.obj: CXX_COMPILER__Basic_C___unscanned_Debug E$:/Basic$ C++/Bai035/Bai_035.cpp || cmake_object_order_depends_target_Basic_C__
+  DEP_FILE = CMakeFiles\Basic_C__.dir\Bai035\Bai_035.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Basic_C__.dir
+  OBJECT_FILE_DIR = CMakeFiles\Basic_C__.dir\Bai035
+
+build CMakeFiles/Basic_C__.dir/Bai036/Bai_036.cpp.obj: CXX_COMPILER__Basic_C___unscanned_Debug E$:/Basic$ C++/Bai036/Bai_036.cpp || cmake_object_order_depends_target_Basic_C__
+  DEP_FILE = CMakeFiles\Basic_C__.dir\Bai036\Bai_036.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Basic_C__.dir
+  OBJECT_FILE_DIR = CMakeFiles\Basic_C__.dir\Bai036
+
+build CMakeFiles/Basic_C__.dir/Bai049/Bai_049.cpp.obj: CXX_COMPILER__Basic_C___unscanned_Debug E$:/Basic$ C++/Bai049/Bai_049.cpp || cmake_object_order_depends_target_Basic_C__
+  DEP_FILE = CMakeFiles\Basic_C__.dir\Bai049\Bai_049.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Basic_C__.dir
+  OBJECT_FILE_DIR = CMakeFiles\Basic_C__.dir\Bai049
+
+build CMakeFiles/Basic_C__.dir/Bai050/Bai_050.cpp.obj: CXX_COMPILER__Basic_C___unscanned_Debug E$:/Basic$ C++/Bai050/Bai_050.cpp || cmake_object_order_depends_target_Basic_C__
+  DEP_FILE = CMakeFiles\Basic_C__.dir\Bai050\Bai_050.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Basic_C__.dir
+  OBJECT_FILE_DIR = CMakeFiles\Basic_C__.dir\Bai050
+
+build CMakeFiles/Basic_C__.dir/Bai058/Bai_058.cpp.obj: CXX_COMPILER__Basic_C___unscanned_Debug E$:/Basic$ C++/Bai058/Bai_058.cpp || cmake_object_order_depends_target_Basic_C__
+  DEP_FILE = CMakeFiles\Basic_C__.dir\Bai058\Bai_058.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Basic_C__.dir
+  OBJECT_FILE_DIR = CMakeFiles\Basic_C__.dir\Bai058
+
+build CMakeFiles/Basic_C__.dir/Bai059/Bai_059.cpp.obj: CXX_COMPILER__Basic_C___unscanned_Debug E$:/Basic$ C++/Bai059/Bai_059.cpp || cmake_object_order_depends_target_Basic_C__
+  DEP_FILE = CMakeFiles\Basic_C__.dir\Bai059\Bai_059.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Basic_C__.dir
+  OBJECT_FILE_DIR = CMakeFiles\Basic_C__.dir\Bai059
+
+build CMakeFiles/Basic_C__.dir/Bai064/Bai_064.cpp.obj: CXX_COMPILER__Basic_C___unscanned_Debug E$:/Basic$ C++/Bai064/Bai_064.cpp || cmake_object_order_depends_target_Basic_C__
+  DEP_FILE = CMakeFiles\Basic_C__.dir\Bai064\Bai_064.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Basic_C__.dir
+  OBJECT_FILE_DIR = CMakeFiles\Basic_C__.dir\Bai064
+
+build CMakeFiles/Basic_C__.dir/Bai068/Bai_068.cpp.obj: CXX_COMPILER__Basic_C___unscanned_Debug E$:/Basic$ C++/Bai068/Bai_068.cpp || cmake_object_order_depends_target_Basic_C__
+  DEP_FILE = CMakeFiles\Basic_C__.dir\Bai068\Bai_068.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Basic_C__.dir
+  OBJECT_FILE_DIR = CMakeFiles\Basic_C__.dir\Bai068
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Basic_C__
@@ -117,7 +165,7 @@ build CMakeFiles/Basic_C__.dir/Bai029/Bai_029.cpp.obj: CXX_COMPILER__Basic_C___u
 #############################################
 # Link the executable Basic_C__.exe
 
-build Basic_C__.exe: CXX_EXECUTABLE_LINKER__Basic_C___Debug CMakeFiles/Basic_C__.dir/main.cpp.obj CMakeFiles/Basic_C__.dir/Bai001/Bai_001.cpp.obj CMakeFiles/Basic_C__.dir/Bai002/Bai_002.cpp.obj CMakeFiles/Basic_C__.dir/Bai012/Bai_012.cpp.obj CMakeFiles/Basic_C__.dir/Bai013/Bai_013.cpp.obj CMakeFiles/Basic_C__.dir/Bai022/Bai_022.cpp.obj CMakeFiles/Basic_C__.dir/Bai023/Bai_023.cpp.obj CMakeFiles/Basic_C__.dir/Bai027/Bai_027.cpp.obj CMakeFiles/Basic_C__.dir/Bai028/Bai_028.cpp.obj CMakeFiles/Basic_C__.dir/Bai029/Bai_029.cpp.obj
+build Basic_C__.exe: CXX_EXECUTABLE_LINKER__Basic_C___Debug CMakeFiles/Basic_C__.dir/main.cpp.obj CMakeFiles/Basic_C__.dir/Bai001/Bai_001.cpp.obj CMakeFiles/Basic_C__.dir/Bai002/Bai_002.cpp.obj CMakeFiles/Basic_C__.dir/Bai012/Bai_012.cpp.obj CMakeFiles/Basic_C__.dir/Bai013/Bai_013.cpp.obj CMakeFiles/Basic_C__.dir/Bai022/Bai_022.cpp.obj CMakeFiles/Basic_C__.dir/Bai023/Bai_023.cpp.obj CMakeFiles/Basic_C__.dir/Bai027/Bai_027.cpp.obj CMakeFiles/Basic_C__.dir/Bai028/Bai_028.cpp.obj CMakeFiles/Basic_C__.dir/Bai029/Bai_029.cpp.obj CMakeFiles/Basic_C__.dir/Bai035/Bai_035.cpp.obj CMakeFiles/Basic_C__.dir/Bai036/Bai_036.cpp.obj CMakeFiles/Basic_C__.dir/Bai049/Bai_049.cpp.obj CMakeFiles/Basic_C__.dir/Bai050/Bai_050.cpp.obj CMakeFiles/Basic_C__.dir/Bai058/Bai_058.cpp.obj CMakeFiles/Basic_C__.dir/Bai059/Bai_059.cpp.obj CMakeFiles/Basic_C__.dir/Bai064/Bai_064.cpp.obj CMakeFiles/Basic_C__.dir/Bai068/Bai_068.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Basic_C__.dir
