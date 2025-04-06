@@ -21,4 +21,5 @@ add_executable(Basic_C__ main.cpp
         Bai059/Bai_059.cpp
         Bai064/Bai_064.cpp
         Bai068/Bai_068.cpp
+        OOP/OnTap/OnTap.cpp
 )
