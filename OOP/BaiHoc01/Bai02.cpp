@@ -6,19 +6,20 @@
 
 using namespace std;
 
- struct Diem {
+ struct Diemkg {
      float x;
      float y;
-     Diem() : x(0), y(0) {};
+     float z;
+     Diemkg() : x(0), y(0), z(0) {};
  };
- typedef struct Diem DIEM;
+ typedef struct Diemkg DIEMKG;
 
- void NhapDiem(DIEM&);
- void XuatDiem(const DIEM&);
- float KhoangCach(DIEM, DIEM);
+ void NhapDiem(DIEMKG&);
+ void XuatDiem(const DIEMKG&);
+ float KhoangCach(DIEMKG, DIEMKG);
 
  int main() {
-     DIEM A, B;
+     DIEMKG A, B;
      NhapDiem(A);
      NhapDiem(B);
      float ketqua = KhoangCach(A, B);
@@ -27,18 +28,20 @@ using namespace std;
      cout << "Khoảng cách giữa 2 điểm A và B là: " << ketqua << endl;
      return 0;
  }
- void NhapDiem(DIEM& A) {
+ void NhapDiem(DIEMKG& A) {
      cout << "\nNhập tọa độ x: ";
      cin >> A.x;
      cout << "\nNhập tọa độ y: ";
      cin >> A.y;
+     cout << "\nNhập tọa độ z: ";
+     cin >> A.z;
  }
 
- ostream operator<<(const ostream & lhs, const DIEM & rhs);
+ ostream operator<<(const ostream & lhs, const DIEMKG & rhs);
 
- void XuatDiem(const DIEM& A) {
-     cout << "Tọa độ điểm là: (" << A.x << ", " << A.y << ")" << endl;
+ void XuatDiem(const DIEMKG& A) {
+     cout << "Tọa độ điểm là: (" << A.x << ", " << A.y << ", " << A.z << ")" << endl;
  }
- float KhoangCach(DIEM A, DIEM B) {
-     return sqrt(pow((A.x - B.x),2) + pow((A.y - B.y),2));
+ float KhoangCach(DIEMKG A, DIEMKG B) {
+     return sqrt(pow((A.x - B.x),2) + pow((A.y - B.y),2) + pow((A.z - B.z),2));
  }
