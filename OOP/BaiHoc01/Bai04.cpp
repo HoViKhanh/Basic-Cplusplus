@@ -13,20 +13,29 @@ struct PhanSo {
 typedef struct PhanSo PHANSO;
 
 void Nhap(PHANSO&);
-void Xuat(PHANSO, PHANSO, PHANSO, PHANSO);
-PHANSO Tong(PHANSO&, PHANSO&);
-PHANSO Hieu(PHANSO&, PHANSO&);
+void Xuat(PHANSO);
+PHANSO Tong(PHANSO, PHANSO);
+PHANSO Hieu(PHANSO, PHANSO);
 PHANSO Tich(PHANSO, PHANSO);
-PHANSO Thuong(PHANSO&, PHANSO&);
+PHANSO Thuong(PHANSO, PHANSO);
 int main() {
   PHANSO ps1, ps2;
+  cout << "\nNhập phân số thứ nhất: ";
   Nhap(ps1);
+  cout << "\nNhập phân số thứ hai: ";
   Nhap(ps2);
-  Tong(ps1, ps2);
-  Hieu(ps1, ps2);
-  Tich(ps1, ps2);
-  Thuong(ps1, ps2);
-  Xuat(Tong, Hieu, Tich, Thuong);
+  PHANSO kq = Tong(ps1, ps2);
+  cout << "\nTổng hai phân số là: ";
+  Xuat(kq);
+  kq = Hieu(ps1, ps2);
+  cout << "\nHiệu hai phân số là: ";
+  Xuat(kq);
+  kq = Tich(ps1, ps2);
+  cout << "\nTích hai phân số là: ";
+  Xuat(kq);
+  kq = Thuong(ps1, ps2);
+  cout << "\nThương hai phân số là: ";
+  Xuat(kq);
   return 0;
 }
 void Nhap(PHANSO &ps) {
@@ -35,15 +44,30 @@ void Nhap(PHANSO &ps) {
   cout << "\nNhập mẫu số: ";
   cin >> ps.mau;
 }
-void Xuat(PHANSO Tong, PHANSO Hieu, PHANSO tich, PHANSO thuong) {
-  cout << "Tổng của hai phân số là: " << Tong.tu << "/" << Tong.mau << endl;
-  cout << "Hieu của hai phân số là: " << Hieu.tu << "/" << Hieu.mau << endl;
-  cout << "Tích của hai phân số là: " << Tich.tu << "/" << Tich.mau << endl;
-  cout << "Thương của hai phân số là: " << Thuong.tu << "/" << Thuong.mau << endl;
+void Xuat(PHANSO kq) {
+  cout << kq.tu << "/" << kq.mau << endl;
 }
 PHANSO Tong(PHANSO ps1, PHANSO ps2){
-
+  PHANSO temp;
+  temp.tu = (ps1.tu * ps2.mau) + (ps2.tu * ps1.mau);
+  temp.mau = ps1.mau * ps2.mau;
+  return temp;
 }
-PHANSO Hieu(PHANSO&, PHANSO&);
-PHANSO Tich(PHANSO, PHANSO);
-PHANSO Thuong(PHANSO&, PHANSO&);
+PHANSO Hieu(PHANSO ps1, PHANSO ps2) {
+  PHANSO temp;
+  temp.tu = (ps1.tu * ps2.mau) - (ps2.tu * ps1.mau);
+  temp.mau = ps1.mau * ps2.mau;
+  return temp;
+}
+PHANSO Tich(PHANSO ps1, PHANSO ps2) {
+  PHANSO temp;
+  temp.tu = ps1.tu * ps2.tu;
+  temp.mau = ps1.mau * ps2.mau;
+  return temp;
+}
+PHANSO Thuong(PHANSO ps1, PHANSO ps2) {
+  PHANSO temp;
+  temp.tu = ps1.tu * ps2.mau;
+  temp.mau = ps1.mau * ps2.tu;
+  return temp;
+}
