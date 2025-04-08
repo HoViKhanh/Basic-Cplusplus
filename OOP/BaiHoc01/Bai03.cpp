@@ -35,21 +35,22 @@ using namespace std;
      void Xuat(PHANSO ps) {
          cout << "Phân số lớn hơn là: " << ps.tu << "/" << ps.mau << endl;
      }
-     PHANSO PhanSoLonNhat(PHANSO ps1, PHANSO ps2) {
-         if (ps1.mau == ps2.mau) {
-           if (ps1.tu > ps2.tu)
-             return ps1;
-           else
-             return ps2;
-         } else if (ps1.tu == ps2.tu) {
-           if (ps1.mau > ps2.mau)
-             return ps2;
-           else
-             return ps1;
-         } else {
-             if ((ps1.tu*ps2.mau) > (ps1.mau*ps2.tu))
-               return ps1;
-             else
-               return ps2;
-         }
-     }
+// Cách 2:
+     // PHANSO PhanSoLonNhat(PHANSO ps1, PHANSO ps2) {
+     //     if (ps1.mau == ps2.mau) {
+     //       if (ps1.tu > ps2.tu)
+     //         return ps1;
+     //       else
+     //         return ps2;
+     //     } else if (ps1.tu == ps2.tu) {
+     //       if (ps1.mau > ps2.mau)
+     //         return ps2;
+     //       else
+     //         return ps1;
+     //     } else {
+     //         if ((ps1.tu*ps2.mau) > (ps1.mau*ps2.tu))
+     //           return ps1;
+     //         else
+     //           return ps2;
+     //     }
+     // }
