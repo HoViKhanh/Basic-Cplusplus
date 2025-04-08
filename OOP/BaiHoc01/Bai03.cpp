@@ -18,7 +18,9 @@ using namespace std;
 
      int main() {
          PHANSO ps1, ps2;
+         cout << "Nhập Phân số thứ nhất: ";
          Nhap(ps1);
+         cout << "Nhập Phân số thứ hai: ";
          Nhap(ps2);
          PHANSO kq = PhanSoLonNhat(ps1, ps2);
          Xuat(kq);
