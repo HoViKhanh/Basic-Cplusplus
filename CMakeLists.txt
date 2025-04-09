@@ -29,4 +29,6 @@ add_executable(Basic_C__ main.cpp
         OOP/BaiHoc01/Bai05.cpp
         OOP/BaiHoc01/Bai06.cpp
         OOP/BaiHoc01/Bai08.cpp
+        OOP/BaiHoc01/Bai09.cpp
+        OOP/BaiHoc01/Bai07.cpp
 )

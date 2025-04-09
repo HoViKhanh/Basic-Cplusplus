@@ -55,30 +55,37 @@ public:
              << year << endl;
     }
 
-    // Tìm ngày kế tiếp
-    Date nextDay() {
-        Date next = *this;
-        next.day++;
-
-        if (next.day > daysInMonth(next.month, next.year)) {
-            next.day = 1;
-            next.month++;
-            if (next.month > 12) {
-                next.month = 1;
-                next.year++;
-            }
+    // Tìm ngày hôm qua
+    Date previousDay() {
+        if (day == 1 && month == 1 && year == 1) {
+            cout << "Ngay 1/1/1 khong co ngay hom qua!\n";
+            return *this;
         }
-        return next;
+
+        Date prev = *this;
+        prev.day--;
+
+        if (prev.day == 0) {
+            prev.month--;
+            if (prev.month == 0) {
+                prev.month = 12;
+                prev.year--;
+            }
+            prev.day = daysInMonth(prev.month, prev.year);
+        }
+        return prev;
     }
+};
+
 int main() {
     Date date;
     cout << "=== Chuong trinh tim ngay ke tiep va ngay hom qua ===\n";
-    cout << "\nNhap ngay de tim ngay ke tiep:\n";
+    cout << "\nNhap ngay de tim ngay hom qua:\n";
     date.input();
     cout << "Ngay hien tai: ";
     date.output();
-    cout << "Ngay ke tiep: ";
-    Date next = date.nextDay();
-    next.output();
+    cout << "Ngay hom qua: ";
+    Date prev = date.previousDay();
+    prev.output();
     return 0;
 }
