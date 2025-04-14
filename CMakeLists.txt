@@ -34,4 +34,8 @@ add_executable(Basic_C__ main.cpp
         OOP/BaiHoc03/ChuongTrinhDauTien.cpp
         OOP/BaiHoc03/UngDung1.cpp
         OOP/BaiHoc03/UngDung2.cpp
+        OOP/BaiHoc11/vidu1.cpp
+        OOP/BaiHoc11/vidu2.cpp
+        OOP/BaiHoc11/vidu3.cpp
+        OOP/BaiHoc11/vidu4.cpp
 )
