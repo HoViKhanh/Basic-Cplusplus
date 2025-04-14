@@ -38,4 +38,6 @@ add_executable(Basic_C__ main.cpp
         OOP/BaiHoc11/vidu2.cpp
         OOP/BaiHoc11/vidu3.cpp
         OOP/BaiHoc11/vidu4.cpp
+        "DSA/InterChange Sort/Lietke.cpp"
+        "DSA/InterChange Sort/DemCap.cpp"
 )
